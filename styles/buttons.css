@@ -23,3 +23,22 @@
 	height: 60px;
 	padding: 18px;
 }
+
+/* Button More */
+
+.button-more {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 10px;
+	background: #f6f4ff;
+	border-radius: 12px;
+	height: 44px;
+	font-size: 16px;
+	color: #5243c2;
+	transition: background-color 0.2s ease-in;
+}
+
+.button-more:hover {
+	background: #dcd8f1;
+}
